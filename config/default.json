@@ -1,0 +1,9 @@
+{
+    "clusterNodes": 3,
+    "webServerPort" : 3000,
+    "data_provider":{
+        "metno":{
+            "getDataURL" : "https://api.met.no/weatherapi/locationforecast/2.0/complete"
+        }
+    }
+}
