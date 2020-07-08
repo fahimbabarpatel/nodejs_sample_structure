@@ -1,3 +1,3 @@
 # nodejs_sample_structure
 
-Sample code structure of NodeJS 
+Sample code structure of NodeJS app
