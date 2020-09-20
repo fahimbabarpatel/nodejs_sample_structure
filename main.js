@@ -6,7 +6,7 @@ import os from 'os';
 import express from "express";
 import  bodyParser from "body-parser";
 import https from "https";
-
+import {MetNoRoutes} from "./routes/metno.js";
 
 class WebServerApi {
 
@@ -38,7 +38,7 @@ class WebServerApi {
     configureRoutes(app) {
         //// console.log("Inside ConfigureRoutes");
         app.use("/api/", this.router);
-        // this.objDashboardRouter = new DashboardRouter(this.router);
+        new MetNoRoutes(this.router);
     }
     run() {
         if (config.has("HTTPSKeyPath") && config.has("HTTPSCertPath")) {

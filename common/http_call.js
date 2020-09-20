@@ -1,6 +1,6 @@
 'use strict'
 
-var rp = require('request-promise-native')
+import rp from 'request-promise-native'
 
 
 export default async function execute(options) {

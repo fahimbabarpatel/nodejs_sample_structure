@@ -1,5 +1,5 @@
 {
-    "clusterNodes": 3,
+    "clusterNodes": 1,
     "webServerPort" : 3000,
     "data_provider":{
         "metno":{
